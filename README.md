@@ -53,25 +53,37 @@ The NOT operator displays a record if the condition(s) is NOT TRUE.
 # AND Syntax
 
 SELECT column1, column2, ...
+  
   FROM table_name
+   
    WHERE condition1 AND condition2 AND condition3 ...;
 
 # OR Syntax
 
 SELECT column1, column2, ...
+  
   FROM table_name
+    
     WHERE condition1 OR condition2 OR condition3 ...;
 
 # NOT Syntax
 
 SELECT column1, column2, ...
+  
   FROM table_name
-    WHERE NOT condition;
+   
+   WHERE NOT condition;
 
+# The SQL ORDER BY Keyword
+ - is used to sort the result-set in ascending or descending order.
+ - sorts the records in ascending order by default.
 
+# ORDER BY Syntax
 
-
-
-
+SELECT column1, column2, ...
+   
+   FROM table_name
+       
+       ORDER BY column1, column2, ... ASC|DESC;
 
 
